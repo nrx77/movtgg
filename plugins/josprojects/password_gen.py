@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (C) @ZauteKm
+# Copyright (C) @Xrsirx5
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
@@ -32,5 +32,5 @@ async def password(bot, update):
     else:
         random_value = "".join(random.sample(password, limit))
         text = f"**Limit :-** `{str(limit)}`.\n**Password :-** `{random_value}`**\n\nJoin @JOSPSupport",
-        reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton('join projects channel', url='https://telegram.me/josprojects')]])
+        reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton('join projects channel', url='https://t.me/MONDAYBOTS')]])
     await message.edit_text(text, True)
